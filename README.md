@@ -12,3 +12,4 @@
   - API Gateway
   - Rekognition
   - Translate
+  - DynamoDB
