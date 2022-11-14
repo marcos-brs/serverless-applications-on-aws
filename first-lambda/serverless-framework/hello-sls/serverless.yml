@@ -1,0 +1,17 @@
+org: zerocoolbr
+app: hello-sls
+service: hello-sls
+
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: hello
+          method: get
