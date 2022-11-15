@@ -2,7 +2,12 @@
 # Recursos utilizados até o momento:
 - Node.js
 - npm
+- uuid
+- axios
+- env-var
+- cheerio
 - Serverless Framework
+- Multi Enviroment
 - AWS
   - CLI
   - SDK
@@ -13,3 +18,4 @@
   - Rekognition
   - Translate
   - DynamoDB
+  - Scheduler
